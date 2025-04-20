@@ -56,7 +56,7 @@ import Modal from './modal/modal'
         <ul className="space-y-2 w-[80vw]">
           <li>
             <Link onClick={close} href="./" className="flex items-center space-x-3 p-3 rounded-lg bg-white shadow-sm hover:bg-gray-50 transition-colors duration-200">
-              <Home size={24} className="text-black" />
+              {/* <Home size={24} className="text-black" /> */}
               <span className="font-medium">Home</span>
             </Link>
           </li>
