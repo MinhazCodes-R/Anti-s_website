@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { Home  } from 'lucide-react'
+// import { Home  } from 'lucide-react'
 import {motion} from "framer-motion";
 
 import React from "react";
