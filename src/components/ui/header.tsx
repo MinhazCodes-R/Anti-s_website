@@ -2,20 +2,20 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { Menu, Home  } from 'lucide-react'
+import { Home  } from 'lucide-react'
 import {motion} from "framer-motion";
 
 import React from "react";
 import Modal from './modal/modal'
 
-import {
-  IconBrandGithub,
-  IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
-} from "@tabler/icons-react";
+// import {
+//   IconBrandGithub,
+//   IconBrandX,
+//   IconExchange,
+//   IconHome,
+//   IconNewSection,
+//   IconTerminal2,
+// } from "@tabler/icons-react";
 
   // const links = [
 
