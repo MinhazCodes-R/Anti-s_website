@@ -6,6 +6,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
+      <div className='h-[80px]'></div>
 
       {/* Hero */}
       <section className="py-24 text-center bg-white">

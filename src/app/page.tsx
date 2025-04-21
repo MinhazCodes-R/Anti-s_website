@@ -6,6 +6,7 @@ export default function Page() {
   return (
     <>
       <Header />
+      <div className='h-[80px]'></div>
 
       {/* Main content */}
       <main className="p-6 max-w-7xl mx-auto">

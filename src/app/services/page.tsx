@@ -27,6 +27,7 @@ export default function ServicesPage() {
   return (
     <>
       <Header />
+      <div className='h-[70px]'></div>
       {/* Hero Section */}
       <section className="relative h-[500px] bg-gradient-to-br from-slate-800 to-slate-600 flex items-center justify-center">
         <h1 className="text-4xl sm:text-5xl font-bold text-white z-10">Our Services</h1>
