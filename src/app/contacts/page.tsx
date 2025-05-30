@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '@/components/ui/header';
-import { MessageCircle, LifeBuoy, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export default function ContactPage() {
   return (
@@ -15,46 +15,12 @@ export default function ContactPage() {
           We're here to help you!
         </h1>
         <p className="text-lg text-slate-600 max-w-xl mx-auto">
-          Reach out by live chat, browse our help center, or send us an email—whatever works best
-          for you.
+          Send us an email or visit our office — we’ll be happy to assist you.
         </p>
       </section>
 
-      {/* Contact Options */}
-      <section className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-5xl mx-auto px-6 mb-24">
-        {/* Live Chat */}
-        <div className="flex flex-col items-center text-center">
-          <div className="bg-indigo-50 rounded-full p-6 mb-4 shadow-inner">
-            <MessageCircle className="w-10 h-10 text-indigo-600" />
-          </div>
-          <h3 className="text-xl font-semibold text-slate-800 mb-1">Live Chat</h3>
-          <p className="text-sm text-slate-600 mb-2">Chat with us<br />Mon – Fri 9 AM – 5 PM EST</p>
-          <a
-            href="#chat"
-            className="inline-block px-5 py-2 text-sm font-medium rounded-md bg-indigo-600 text-white hover:bg-indigo-700 transition"
-          >
-            Start Chat
-          </a>
-        </div>
-
-        {/* Help Center */}
-        <div className="flex flex-col items-center text-center">
-          <div className="bg-yellow-50 rounded-full p-6 mb-4 shadow-inner">
-            <LifeBuoy className="w-10 h-10 text-yellow-600" />
-          </div>
-          <h3 className="text-xl font-semibold text-slate-800 mb-1">Help Center</h3>
-          <p className="text-sm text-slate-600 mb-2 max-w-[14ch]">
-            Find answers to our most commonly asked questions.
-          </p>
-          <a
-            href="/help-center"
-            className="inline-block px-5 py-2 text-sm font-medium rounded-md bg-yellow-600 text-white hover:bg-yellow-700 transition"
-          >
-            Browse Articles
-          </a>
-        </div>
-
-        {/* Email */}
+      {/* Email Contact Option */}
+      <section className="grid grid-cols-1 sm:grid-cols-1 gap-8 max-w-2xl mx-auto px-6 mb-24">
         <div className="flex flex-col items-center text-center">
           <div className="bg-rose-50 rounded-full p-6 mb-4 shadow-inner">
             <Mail className="w-10 h-10 text-rose-600" />
@@ -80,7 +46,6 @@ export default function ContactPage() {
             width="100%"
             height="400"
             style={{ border: 0 }}
-
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -90,7 +55,6 @@ export default function ContactPage() {
         <div className="lg:w-1/2">
           <h2 className="text-3xl font-bold text-slate-800 mb-4">Contact Us</h2>
           <p className="text-lg font-semibold text-slate-700">Duncan Information Services Inc.</p>
-
           <address className="not-italic text-slate-600 leading-relaxed">
             20 Bay Street, 17th Floor<br />
             Toronto, ON M5J 2N8<br />
