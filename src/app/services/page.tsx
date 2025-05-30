@@ -4,7 +4,6 @@ import React from 'react';
 import Link from 'next/link';
 import Header from '@/components/ui/header';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
 
 const services = [
   { title: 'NUANS Name Reservations', image: '/services/nuans.png' },
